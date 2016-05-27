@@ -2,7 +2,7 @@ package br.unicamp.ic.mc302.exemploListener;
 
 import br.unicamp.ic.mc302.widget.OnReleaseListener;
 
-public class LoginButtonReleaseListener extends OnReleaseListener {
+public class LoginButtonReleaseListener implements OnReleaseListener {
 
 	@Override
 	public void onButtonRelease() {

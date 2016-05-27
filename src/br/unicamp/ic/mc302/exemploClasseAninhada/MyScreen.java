@@ -21,7 +21,7 @@ public class MyScreen extends Screen {
 		getButtonList().add(loginButton);
 	}
 
-	private class LoginButtonClickListener extends OnClickListener {
+	private class LoginButtonClickListener implements OnClickListener {
 
 		@Override
 		public void onButtonClick() {
@@ -30,7 +30,7 @@ public class MyScreen extends Screen {
 
 	}
 
-	private class LoginButtonReleaseListener extends OnReleaseListener {
+	private class LoginButtonReleaseListener implements OnReleaseListener {
 
 		@Override
 		public void onButtonRelease() {

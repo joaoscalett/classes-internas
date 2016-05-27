@@ -1,7 +1,7 @@
 package br.unicamp.ic.mc302.widget;
 
-public abstract class OnDoubleClickListener {
+public interface OnDoubleClickListener {
 
-	public abstract void onButtonDoubleClick();
+	void onButtonDoubleClick();
 
 }
